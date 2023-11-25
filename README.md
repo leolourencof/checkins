@@ -1,1 +1,1 @@
-# checkin-in-django
+# checkin-django
