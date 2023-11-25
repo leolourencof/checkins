@@ -14,6 +14,3 @@ class CheckinSerializer(serializers.ModelSerializer):
 
         def create(self, validated_data: dict) -> Checkin:
             return Checkin.objects.create(**validated_data['employee_id'])
-
-        
-
